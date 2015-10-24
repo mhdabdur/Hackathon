@@ -17,7 +17,7 @@ class IbuController extends Controller
     public function index()
     {
         $ibu = Ibu::all();
-        return view('posyandu.index', compact('ibu'));
+        return view('posyandu.ibu', compact('ibu'));
     }
 
     /**
@@ -27,7 +27,7 @@ class IbuController extends Controller
      */
     public function create()
     {
-        return view('posyandu.create');
+        return view('posyandu.create_ibu');
     }
 
     /**
@@ -40,7 +40,7 @@ class IbuController extends Controller
     {
         $ibu = Request::all();
         Ibu::create($ibu);
-        return redirect('home');
+        return redirect('posyandu');
     }
 
     /**

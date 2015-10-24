@@ -3,7 +3,7 @@
 @section('content')
 
  <h1>Data Ibu Hamil</h1>
- <a href="{{url('/posyandu/create')}}" class="btn btn-success">Tambah Data</a>
+ <a href="{{url('/posyandu/create_ibu')}}" class="btn btn-success">Tambah Data</a>
  <hr>
  <table class="table table-striped table-bordered table-hover">
      <thead>
