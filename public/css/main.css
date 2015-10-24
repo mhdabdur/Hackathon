@@ -1,0 +1,10 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+.col-md-2{
+	position: absolute;
+	background: #2058FF;
+	top:0px;
+	bottom:0px;
+}
